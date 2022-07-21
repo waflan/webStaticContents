@@ -1,10 +1,12 @@
 <html>
     <head>
         <meta property="og:image" id="meta">
+        <meta content="HOGEHOGE" property="og:title" id="meta">
     </head>
     <body>
         <h1 id="fuga"></h1>
-        <iframe src="" frameborder="0" id="hoge"></iframe>
+        <!-- <iframe src="" frameborder="0" id="hoge"></iframe> -->
+        <img src="" id="image">
     </body>
     <script>
     // let url = new URL("https://google.com?url=https://pri-image-db.herokuapp.com/images/2153");
@@ -12,6 +14,7 @@
     // let params = url.searchParams;
     let meta = document.getElementById("meta");
     meta.setAttribute("content","https://imgur.com/JK1BvJt");
+    document.getElementById("image").setAttribute("src","https://imgur.com/JK1BvJt");
     // fetch(params.get('url')).then((res)=>{
     //     console.log(res);
     // });
