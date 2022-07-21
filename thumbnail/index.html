@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta property="og:image" id="meta">
+        <meta property="og:image" id="metaimg">
         <meta content="HOGEHOGE" property="og:title" id="meta">
     </head>
     <body>
@@ -12,8 +12,9 @@
     // let url = new URL("https://google.com?url=https://pri-image-db.herokuapp.com/images/2153");
     // let url = new URL(window.location.href);
     // let params = url.searchParams;
-    let meta = document.getElementById("meta");
+    let meta = document.getElementById("metaimg");
     meta.setAttribute("content","https://imgur.com/JK1BvJt.png");
+    document.getElementById("meta").setAttribute("content","FUGAFUGA");
     document.getElementById("image").setAttribute("src","https://imgur.com/JK1BvJt.png");
     // fetch(params.get('url')).then((res)=>{
     //     console.log(res);
